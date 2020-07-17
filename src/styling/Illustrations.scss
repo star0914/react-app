@@ -1,0 +1,90 @@
+//box sizes
+$box-size: 400px;
+
+//padding
+.skills-cell {
+  //margin: 75px;
+
+  height: $box-size;
+  width: $box-size;
+  display: inline-block;
+  border: black 8px solid;
+}
+.skills-cell-container {
+  margin: 55px;
+}
+.skill-desc {
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: 0;
+}
+
+//react
+$orbit-width: $box-size * 0.75;
+$nucleus-size: $orbit-width/5.5;
+$orbit-height: $orbit-width/2.25;
+$orbit-thickness: $nucleus-size * 0.25;
+$logo-size: $orbit-width;
+$react-color: #00d8ff;
+.react-logo {
+  animation: rolling-atom 20s infinite linear;
+  height: inherit; width: inherit;
+}
+.react-logo:hover { filter: brightness(1.05); }
+.react-nucleus {
+  position: absolute;
+  width: $nucleus-size;
+  height: $nucleus-size;
+  border-radius: 50%;
+  background: $react-color;
+  left: $box-size / 2 - $nucleus-size / 2;
+  top: $box-size / 2 - $nucleus-size / 2;
+}
+.atom-orbit {
+  position: absolute;
+  width: $orbit-width;
+  height: $orbit-height;
+  border: $orbit-thickness solid $react-color;
+  border-radius: 50%;
+  border-color: $react-color;
+  //top: -500px; // NO MATTER WHAT VALUE, THIS DOESN'T WORK
+  //transform: translate(0, 200px); //SAMEHERE
+  left: ($box-size - ($orbit-width + 2*$orbit-thickness)) / 2;
+}
+@function calc-orbit-angle ($i) {
+  @return 60 * ($i - 1);
+}
+@for $i from 1 through 3 {
+  #orbit-#{$i} {
+    transform: rotate(calc-orbit-angle($i)+deg);
+    position: absolute;
+    //left: -1 * $orbit-thickness;
+    top: 15%;
+  }
+}
+// rotation animation
+@keyframes rolling-atom {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+//sass-logo
+.sass-logo {
+  //background-image: url("../img/sass-logo.jpg");
+  //height: $box-size;
+  //width: $box-size;
+  //transform: translate(0, -39px);
+}
+
+
+//tableau
+.tableau-logo {
+  height: $box-size;
+  width: $box-size;
+  //transform: translate(0, -115px);
+}

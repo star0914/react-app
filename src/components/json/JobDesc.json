@@ -1,0 +1,28 @@
+{
+  "computerpros": [
+    "Grew the company by 50% in terms of client base, by either establishing new relationships or maintaining existing accounts",
+    "Acquired knowledge of MERN and MEVN stacks, GraphQL and NPM/Yarn",
+    "Used Visual Studio Code for development, Postman for verifying CRUD functionality, mLabs for backend hosting and Heroku for deployment",
+    "Automated the fetching of Web APIs for the accounting department, dealing with Big Data",
+    "Responsible for shell scripting on Macs through the use of SequelPro (MySQL)"
+  ],
+  "Porter Office Services (Light Speed Staffing)": [
+    "Safely operated power tools such as drills and saws",
+    "Responsible for cabling work including ethernet, telephone, power, etc.",
+    "Exceeded productivity expectations with regards to speed of tasks completed in a fast-paced manner"
+  ],
+  "JLPD Enterprise": [
+    "Created product: APPetite (school campus food app), Web app URL: http://myappetite.ca/, code repository: https://bitbucket.org/KJ1992/appetite.git/",
+    "Completed project and applied/utilized BootStrap framework and Places API",
+    "Developed a web app (Bootstrap) and an Android app",
+    "Used Report Builder to generate reports of user reviews in Razor"
+  ],
+  "EllisDon Corporation": [
+    "Experienced in working under IT ticketing systems",
+    "Sped up service delivery by 10% and maintained user satisfaction to 5/5 by communicating effectively with users and resolving tickets in an efficient and timely manner",
+    "Thoroughly researched certain ongoing issues; persistently looked for solutions",
+    "Wrote and compiled 3 documents and edited several by participating in revising/updating IT support manuals/procedural documents",
+    "Constantly translated technical terms into simple English and vice-versa for end users",
+    "Provided active directory management, software/hardware troubleshooting, installing/upgrading, network management"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+	"computerpros": {
+		"company": "Computer-Pros",
+		"job": "Software Developer",
+		"dates": "March 2018 to March 2020"
+	},
+	"porter": {
+		"company": "Porter Office Services (Light Speed Staffing)",
+		"job": "Junior Systems Installer/Technician",
+		"dates": "May 2017 to February 2018"
+	},
+  "jlpd": {
+    "company": "JLPD Enterprise",
+    "job": "Lead UI/UX Engineer",
+    "dates": "January 2016 to December 2016"
+  },
+  "ellisdon": {
+    "company": "EllisDon Corporation",
+    "job": "Infrastructure Support Student",
+    "dates": "August 2015 to December 2015"
+  }
+}

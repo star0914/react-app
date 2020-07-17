@@ -1,0 +1,118 @@
+$tabDefaultColour: #003d5b;
+$tabHoverColour: #4392f1;
+$lightBackgroundColour: #ffffff;
+$cssIllustrationLeft: 50px;
+
+.react-tabs { -webkit-tap-highlight-color: transparent; }
+.react-tabs__tab-list {
+  //border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+  background-color: $tabDefaultColour;
+  color: rgb(252, 252, 252);
+}
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.react-tabs__tab--selected {
+  background: $lightBackgroundColour;
+  border-color: #aaa;
+  color: black;
+  border-radius: 0;
+}
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+.react-tabs__tab:hover {
+  animation-name: tab-fading;
+  animation-fill-mode: both;
+	animation-duration: 2s;
+}
+@keyframes tab-fading {
+  0% { background-color: $tabDefaultColour; }
+  100% { background-color: $tabHoverColour; }
+}
+.react-tabs__tab--selected:hover {
+  background-color: $lightBackgroundColour;
+  animation-name: none;
+}
+.react-tabs__tab:focus {
+  box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);
+  outline: none;
+}
+.react-tabs__tab:focus:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff;
+}
+.react-tabs__tab-panel {
+  display: none;
+  min-height: 50vh;
+}
+.react-tabs__tab-panel--selected {
+  display: block;
+  scroll-behavior: auto;
+  padding: 10px;
+}
+div {
+	animation-name: reveal-panel;
+	animation-fill-mode: both;
+	animation-duration: .5s;
+}
+@keyframes reveal-panel {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.card-border {
+  border: solid 5px #0d0630;
+  border-radius: 20px;
+  color: 'black';
+  width: 20%;
+  height: 30vh;
+  max-height: 35vh;
+  overflow-y: auto;
+  background-color: #499f68;
+  border-radius: 8;
+  position: relative;
+  display: -webkit-inline-flex;
+  margin-inline-start: 30px;
+  margin-top: 4vh;
+  padding: 20px;
+}
+//emoji
+body { background: #feee9d; }
+.emoji {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fbd671;
+  align-items: center;
+}
+.face {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.mouth {
+  width: 100%;
+  height: 20px;
+  background-color: #20184E;
+  border-radius: 0 0 100px 100px;
+  border: 0 solid #20184E;
+}
