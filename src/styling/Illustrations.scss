@@ -40,7 +40,7 @@ $react-color: #00d8ff;
   border-radius: 50%;
   background: $react-color;
   left: $box-size / 2 - $nucleus-size / 2;
-  top: ($box-size / 2 - $nucleus-size / 2);
+  top: ($box-size / 2 - $nucleus-size / 2)/1.5;
 }
 .atom-orbit {
   position: absolute;
