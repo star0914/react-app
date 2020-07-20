@@ -6,12 +6,22 @@ import "../styling/Tabs.scss";
 
 function Certificate (props) {
   return <div>
-    <h2>Sheridan College</h2>
-    <h4>Software Development Advanced Diploma</h4>
-    <h6>Graduated December 2016</h6>
-    <ul>
-      <li>y</li>
-    </ul>
+    <div>
+      <h2>Microsoft Technology Associate</h2>
+      <h4>Software Development Fundamentals</h4>
+      <h6>Received May 2019</h6>
+      <ul>
+        <li>y</li>// TODO: 
+      </ul>
+    </div>
+    <div>
+      <h2>Sheridan College</h2>
+      <h4>Software Development Advanced Diploma</h4>
+      <h6>Graduated December 2016</h6>
+      <ul>
+        <li>y</li>
+      </ul>
+    </div>
   </div>
 }
 
