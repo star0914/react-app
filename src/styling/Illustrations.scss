@@ -8,7 +8,7 @@ $box-size: 400px;
   height: $box-size;
   width: $box-size;
   display: inline-block;
-  border: black 8px solid;
+  border: black 8px solid;//TODO: remove
 }
 .skills-cell-container {
   margin: 55px;
@@ -40,7 +40,7 @@ $react-color: #00d8ff;
   border-radius: 50%;
   background: $react-color;
   left: $box-size / 2 - $nucleus-size / 2;
-  top: $box-size / 2 - $nucleus-size / 2;
+  top: ($box-size / 2 - $nucleus-size / 2);
 }
 .atom-orbit {
   position: absolute;

@@ -1,0 +1,22 @@
+.certificate {
+  background-color: white;
+  box-shadow: 5px 10px 10px #444;
+  padding: 15px;
+  margin: 20px;
+  width: 500px;
+  height: 250px;
+  display: inline-block;
+  text-align: center;
+}
+@media only screen and (max-width: 500px) {
+  .certificate {
+    width: 100%;
+  }
+}
+.certificate:hover {
+  width: 550px;
+  height: 275px;
+}
+.certificate ul {
+  text-align: left;
+}
