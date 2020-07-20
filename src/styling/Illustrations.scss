@@ -40,7 +40,7 @@ $react-color: #00d8ff;
   border-radius: 50%;
   background: $react-color;
   left: $box-size / 2 - $nucleus-size / 2;
-  top: ($box-size / 2 - $nucleus-size / 2)/1.5;
+  top: ($box-size / 2 - $nucleus-size / 2);
 }
 .atom-orbit {
   position: absolute;
@@ -61,7 +61,7 @@ $react-color: #00d8ff;
     transform: rotate(calc-orbit-angle($i)+deg);
     position: absolute;
     //left: -1 * $orbit-thickness;
-    top: 15%;
+    top: 30%;
   }
 }
 // rotation animation
